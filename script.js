@@ -339,7 +339,7 @@ document.addEventListener('keydown', (e) => {
     const stockAdjPath = ["Stores", "Issue (Item)", "General"];
     buildDiagonalPath('path-stock-adj', stockAdjPath);
 
-    const TownPath = ["Masters", "Distributions", "Geographical Hierarchy", "Town"];
+    const townPath = ["Masters", "Distributions", "Geographical Hierarchy", "Town"];
     buildDiagonalPath('town-path', stockAdjPath);
 
     const issueItemPath = ["Stores", "Issue Item", "Production", "Warehouse", "Requisition & Consumption"];
